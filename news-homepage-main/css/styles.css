@@ -1,0 +1,277 @@
+* {
+  margin: 0;
+}
+
+h1 {
+  width: 350px;
+  height: 200px;
+  margin: 20px 50px 20px 100px;
+  font-size: 3.8rem;
+  font-family: 'Roboto', sans-serif;
+}
+
+p {
+  margin: 0;
+  display: inline-block;
+  font-family: 'Roboto', sans-serif;
+  color: #878787;
+
+}
+
+h2 {
+  letter-spacing: 1px;
+}
+
+h3 {
+  letter-spacing: 1px;
+  font-family: 'Roboto', sans-serif;
+}
+
+h3:hover{
+  color:#ff7b00;
+}
+
+a {
+  position:relative;
+  left: 57%;
+  font-family: 'Roboto', sans-serif;
+  color: #474E68;
+  text-decoration: none;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+a:hover{
+  color: #ff7b00;
+}
+
+hr {
+  background-color: #878787;
+  border-style: solid none none none;
+  width: 80%;
+  height: 1px;
+}
+
+.nav {
+  padding: 50px 100px;
+  position: relative;
+  left: 3%;
+}
+
+.medium-content{
+  position:relative;
+  left: 3%;
+}
+
+.main-img{
+  margin: 0 20px 0 100px;
+  width: 50%;
+}
+
+.more-information {
+  color: #474E68;
+  position:absolute;
+  top: 350px;
+  width: 350px;
+  left: 470px;
+  font-size: 1.1rem;
+  line-height: 1.5;
+}
+
+.btn {
+  border-radius: 0;
+  display: inline-block;
+  position: absolute;
+  top: 500px;
+  left: 470px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 16px;
+  background: #000000;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  text-transform: uppercase;
+
+}
+
+.btn:hover {
+  background: #ff7b00;
+  text-decoration: none;
+  border: 0;
+}
+
+.new-notice {
+  position: absolute;
+  left: 60%;
+  top:0;
+  width: 400px;
+  height: 540px;
+  background-color: black;
+}
+
+.h2-new{
+  font-size: 2rem;
+  position: absolute;
+  left: 10%;
+  top: 8%;
+  margin: 0;
+  color: #ff7b00;
+  font-family: 'Roboto', sans-serif;
+}
+
+.h3-hydrogen {
+  position: absolute;
+  color: white;
+  top: 20%;
+  left: 10%;
+}
+
+.p-hydrogen {
+  position: absolute;
+  left: 10%;
+  top: 27%;
+  width: 280px;
+  line-height: 1.5;
+}
+
+.first-hr{
+  position: absolute;
+  left: 10%;
+  top: 40%;
+}
+
+.h3-downsides{
+  position: absolute;
+  color: white;
+  left: 10%;
+  top: 46%;
+}
+
+.p-downsides{
+  position: absolute;
+  top: 53%;
+  left: 10%;
+  width: 280px;
+  line-height: 1.5;
+}
+
+.second-hr{
+  position: absolute;
+  left: 10%;
+  top: 65%;
+}
+
+.h3-vc{
+  position: absolute;
+  color: white;
+  left: 10%;
+  top: 72%;
+}
+
+.p-vc{
+  position: absolute;
+  left: 10%;
+  width: 280px;
+  top: 80%;
+  line-height: 1.5;
+}
+
+.bottom-content{
+  position: relative;
+}
+
+.retro-pc-img{
+  width: 100px;
+  height: 150px;
+  margin: 3.2rem 3.2rem 3.2rem 10%;
+}
+
+.retro-h2{
+  position:absolute;
+  top: 3rem;
+  left: 17.5rem;
+  font-size: 2rem;
+  font-family: 'Roboto', sans-serif;
+  color: #474E68;
+}
+
+.retro-a{
+  position: absolute;
+  top: 5rem;
+  left: 16.2rem;
+  color: black;
+}
+
+.retro-p {
+  position: absolute;
+  top: 9rem;
+  left: 17.5rem;
+  height: 57px;
+  width: 210px;
+  line-height: 1.5;
+}
+
+.top-laptops-img{
+  position: absolute;
+  width: 100px;
+  height: 150px;
+  margin: -13rem 3.2rem 3.2rem 34%;
+
+}
+
+.laptops-h2{
+  position:absolute;
+  top: 3rem;
+  left: 41rem;
+  font-size: 2rem;
+  font-family: 'Roboto', sans-serif;
+  color: #474E68;
+}
+
+.laptops-a{
+  position: absolute;
+  top: 5rem;
+  left: 39.7rem;
+  color: black;
+}
+
+.laptops-p{
+  position: absolute;
+  top: 9rem;
+  left: 41rem;
+  height: 57px;
+  width: 210px;
+  line-height: 1.5;
+}
+
+.gaming-growth-img{
+  position: absolute;
+  width: 100px;
+  height: 150px;
+  margin: -13rem 3.2rem 3.2rem 63%;
+}
+
+.gaming-h2{
+  position:absolute;
+  top: 3rem;
+  left: 68rem;
+  font-size: 2rem;
+  font-family: 'Roboto', sans-serif;
+  color: #474E68;
+}
+
+.gaming-a{
+  position: absolute;
+  top: 5rem;
+  left: 66.7rem;
+  color: black;
+}
+
+.gaming-p{
+  position: absolute;
+  top: 9rem;
+  left: 68rem;
+  height: 57px;
+  width: 210px;
+  line-height: 1.5;
+}
